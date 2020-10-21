@@ -1,0 +1,9 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @media (max-width: 953px) {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

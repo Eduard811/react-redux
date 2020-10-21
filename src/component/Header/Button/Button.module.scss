@@ -1,0 +1,39 @@
+.button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 150px;
+  height: 50px;
+  background: #FE5F1E;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.15s ease-in-out;
+  &:hover {
+    background: darken(#FE5F1E, 8%);
+  }
+  &:active {
+    transform: translateY(1px);
+  }
+  span {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+  }
+}
+.button__decoration {
+    width: 1px;
+    height: 25px;
+    margin: 0 5px;
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.button__cart {
+  display: flex;
+}
+.button__price {
+  margin: 0 5px 0 17px;
+}
+.button__value {
+  margin: 0 17px 0 5px;
+}

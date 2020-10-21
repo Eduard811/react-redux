@@ -1,0 +1,79 @@
+.popup {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  p {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.015em;
+    color: #2C2C2C;
+  }
+  span {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.015em;
+    border-bottom: 1px dashed #FE5F1E;
+    color: #FE5F1E;
+    cursor: pointer;
+  }
+  svg {
+    margin-right: 7px;
+    cursor: pointer;
+    transform: rotate(180deg);
+    &.rotated {
+      transform: rotate(0deg);
+    }
+    &:hover {
+      path {
+        fill: #FE5F1E;
+      }
+    }
+  }
+}
+
+.popup__modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 100;
+  width: 132px;
+  min-height: 136px;
+  top: 27px;
+  right: 0;
+  bottom: 0;
+  background: #FFFFFF;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.09);
+  border-radius: 10px;
+  overflow: hidden;
+  li {
+    width: 132px;
+    height: 38px;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.015em;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 10px;
+    &:hover {
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: 0.015em;
+      color: #FE5F1E;
+      background: rgba(254, 95, 30, 0.05);
+    }
+  }
+}
+
+.active {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.015em;
+  color: #FE5F1E;
+  background: rgba(254, 95, 30, 0.05);
+}
