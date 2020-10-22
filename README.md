@@ -1,4 +1,4 @@
-Интернет-магазин на React-Redux
+Интернет-магазин на React-Redux.
 
 Стек:</br>
 ReactJS</br>
@@ -10,4 +10,4 @@ json-server (для хранения товара на фейковом серв
 
 Команды:</br>
 yarn start и yarn server - Запуск Dev сервер и фейкового сервера где хранятся пиццы.</br>
-yarn build - Production сборка проекта</br>
+yarn build - Production сборка проекта.</br>
