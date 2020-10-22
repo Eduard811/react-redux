@@ -7,7 +7,7 @@ const CartEmpty = () => {
     return (
         <div className={classes.cart__empty__wrapper}>
             <div className={classes.cart__empty}>
-                <h2>Корзина пустая  <span role="img" aria-label="smile">😕</span></h2>
+                <h2>Корзина пустая  <span aria-label="smile">😕</span></h2>
                 <p>Вероятнее всего, вы не заказали пиццу.</p>
                 <p>Что бы заказать пиццу - перейдите на главную страницу.</p>
                 <img src={emptyCartImg} alt=""/>
