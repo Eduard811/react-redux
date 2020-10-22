@@ -1,4 +1,4 @@
-Интернет-магазин на React-Redux</dr>
+Интернет-магазин на React-Redux</br>
 Деплой - https://pizza-react-redux.herokuapp.com/
 
 Стек:</br>
